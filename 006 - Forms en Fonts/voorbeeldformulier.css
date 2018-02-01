@@ -1,0 +1,70 @@
+.checkbox{
+    float: left;
+    padding-right: 425px;
+    padding-top: 6px;
+}
+
+#checkbox1{
+    margin-left: 20px;
+}
+
+#checkbox2, #checkbox3{
+    margin-left: 104px;
+}
+
+.text1{
+    width: 280px;
+}
+
+.text2 {
+    float:right;
+    width: 170px;
+    border: 1px solid lightgray;
+}
+
+.text1, .radio, .select, .date, .textarea{
+    padding: 10px;
+}
+
+#radio1{
+    margin-left: 51px;
+}
+
+#radio2{
+    margin-left: 25px;
+}
+
+#select1{
+    margin-left: 33px;
+    width: 125px;
+    height: 23px;
+}
+
+#date1{
+    margin-left: 5px;
+    width: 120px;
+}
+
+#textarea1{
+    float: right;
+    margin-left: 20px;
+    padding-right: 111px;
+    height: 110px;
+}
+
+.left{
+    float: left;
+}
+
+.button{
+    margin-left: 450px;
+    margin-top: 410px;
+}
+
+#button1, #button2{
+    width: 80px;
+}
+
+#button2{
+    margin-left: 8px;
+}

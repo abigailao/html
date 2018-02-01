@@ -1,0 +1,21 @@
+/*LOGIN*/
+div.login {
+    width:300px;
+    padding: 5px;
+}
+
+input#knop{
+    width: 80px;
+    left: 153px;
+    top: 190px;
+    position: absolute;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input {
+    float:right;
+    width: 150px;
+    border: 1px solid lightgray;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Burton Education</title>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="voorbeeldformulier.css">
 </head>
 <body>
 <form action="http://www.savatarian.com/html5/form.php" method="post">
@@ -11,19 +11,8 @@
     <h2>Voorbeeldformulier</h2>
     </header>
 
-    <!--ETEN-->
-    <div class="checkbox">
-        <label><span>Lekker eten:</span>
-            <input type="checkbox" value="sperciebonen" name="lekker-eten" id="checkbox1"/>
-            <label for="checkbox1">Sperciebonen</label><br>
-            <input type="checkbox" value="aardappelen" name="lekker-eten" id="checkbox2"/>
-            <label for="checkbox2">Aardappelen</label><br>
-            <input type="checkbox" value="hamburger" name="lekker-eten" id="checkbox3"/>
-            <label for="checkbox3">Hamburger</label>
-        </label>
-    </div>
     <!---------------------------------------------------------------------------------------------------------------->
-
+<div class="left">
     <!--VOORNAAM-->
     <div class="text1">
         <label><span>Voornaam</span>
@@ -74,6 +63,19 @@
     <label><span>Omschrijving</span>
     <textarea name="omschrijving" id="textarea1"></textarea>
     </label>
+    </div>
+</div> <!--div creates float-right for "ETEN" without using float-->
+
+    <!--ETEN-->
+    <div class="checkbox">
+        <label><span>Lekker eten:</span>
+            <input type="checkbox" value="sperciebonen" name="lekker-eten" id="checkbox1"/>
+            <label for="checkbox1">Sperciebonen</label><br>
+            <input type="checkbox" value="aardappelen" name="lekker-eten" id="checkbox2"/>
+            <label for="checkbox2">Aardappelen</label><br>
+            <input type="checkbox" value="hamburger" name="lekker-eten" id="checkbox3"/>
+            <label for="checkbox3">Hamburger</label>
+        </label>
     </div>
 
     <!--KNOPPEN-->
